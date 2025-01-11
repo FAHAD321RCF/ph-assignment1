@@ -70,6 +70,7 @@ text-align: left;
 .button2{
 
  background-color: rgb(0, 106, 80);
+ border-radius:7px;
 font-family: Fira Sans;
 font-size: 18px;
 font-weight: 600;
@@ -136,4 +137,67 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 }
 
+.aim{
+
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-left:100px;
+}
+
+.Pillar{
+
+  display: flex;
+ margin-left: 100px;
+ gap:30px;
+}
+
+.l{
+    border-radius: 8px;
+
+    background: rgb(84, 144, 245);
+
+}
+
+.e{
+    border-radius: 8px;
+
+    background: rgb(9, 161, 92);
+
+}
+.r{
+
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgb(247, 235, 207);
+}
+
+.dig{
+
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+}
+
+.green{
+
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+
+.mod{
+
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
 
