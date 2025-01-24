@@ -7,6 +7,7 @@
     line-height: 38px;
     letter-spacing: 0%;
     text-align: left;
+    margin-right: 600px;
 
 }
 .button1{
@@ -14,25 +15,27 @@
     color: rgb(0, 106, 80);
     font-family: Fira Sans;
     font-size: 18px;
-    font-weight: 100px;
-    line-height: 10px;
-    letter-spacing: 0%;
+    font-weight: 50px;
+    line-height: 5px;
     text-align: right;
     box-sizing: border-box;
     border: 1px solid rgb(38, 178, 143);
     border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 27px;
  
-     padding: 15px 30px 15px 30px
+     padding: 15px 15px 15px 15px
    
 
 }
 .section1{
     display: flex;
     justify-content: space-evenly;
+align-items: center;
     
 }
 .section2{
-width: 1280px;
+width: 1000px;
 height: 560px;
 display: flex;
 flex-direction: row;
@@ -267,9 +270,6 @@ justify-content: flex-start;
 align-items: center;
 gap: 120px;
 padding: 48px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
@@ -376,6 +376,11 @@ background: rgb(255, 255, 255);
 
 
 }
+.taka2{
+    background: rgb(197, 24, 56);
+    border-radius: 16px;
+}
+
 .taka2:hover{
 
     color: rgb(68, 180, 101);
@@ -384,7 +389,7 @@ background: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     
-    background: rgb(198, 228, 214);
+  
 
 }
 .taka3:hover{
@@ -416,12 +421,16 @@ background: rgb(255, 255, 255);
     text-align: center;
 }
 .now{
-
+    max-width: 100px;
+    margin-left: 607px;
+ display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+margin-top: 10px;
+
     
 
-    box-sizing: border-box;
+
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
     
